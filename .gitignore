@@ -2,6 +2,10 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/
+*.iml
+*.iws
+*.ipr
 
 ### Eclipse ###
 .apt_generated
@@ -27,3 +31,18 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Data file
+pets.ser
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
